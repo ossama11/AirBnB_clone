@@ -64,7 +64,7 @@ $
 
 ### Console Commands
 
-The HolbertonBnB console supports the following commands:
+The HBnB console supports the following commands:
 
 * **create**
   * Usage: `create <class>`
