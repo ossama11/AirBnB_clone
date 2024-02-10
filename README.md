@@ -187,20 +187,24 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 [BaseModel] (49faff9a-6318-451f-87b6-910505c55907) {'created_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903293), 'id': '49faff9a-6318-451f-87b6-910505c55907', 'updated_at': datetime.datetime(2017, 10, 2, 3, 10, 25, 903300)}
 ```
 
-## Testing :
+## Testing 📏
 
-Unittests for the project are defined in the [tests](./tests) 
-folder. To run the entire test suite simultaneously, execute the following command:
+Testing procedures ensure the reliability and functionality of the project.
 
-```
-$ python3 unittest -m discover tests
+### Running Tests
+
+Unittests for the project are defined in the [tests](./tests) folder. To run the entire test suite simultaneously, execute the following command:
+
+```bash
+$ python3 -m unittest discover tests
 ```
 
 Alternatively, you can specify a single test file to run at a time:
 
-```
-$ python3 unittest -m tests/test_console.py
+```bash
+$ python3 -m unittest tests/test_console.py
 ```
 
-## Authors :black_nib:
-* **ossama11** <[ossama11](https://github.com/ossama11)>
+## Authors ✒️
+
+* **ossama11** - [ossama11](https://github.com/ossama11)
