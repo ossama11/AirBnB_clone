@@ -1,0 +1,119 @@
+.places {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.places h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    flex: 0 1 100%;
+}
+  
+.places article {
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+}
+  
+.places h2 {
+    font-size: 30px;
+    align-self: center;
+    margin: 0 0 0 0;
+}
+  
+.price_by_night {
+    color: #ff5a5f;
+    border: 4px solid #ff5a5f;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.price_by_night p {
+    
+    margin: 0;
+}
+.information {
+    height: 80px;
+    width: 100%;
+    margin-top: 35px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+    
+
+}
+.information p {
+    margin: 1px;
+}
+
+.max_guest {
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.img_max_guest {
+    width: 50px;
+    height: 50px;
+    background-image: url(..//images/icon_group.png);
+}
+
+.number_rooms {
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.img_number_rooms {
+    width: 50px;
+    height: 50px;
+    background-image: url(..//images/icon_bath.png);
+}
+
+.number_bathrooms {
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.img_number_bathrooms {
+    width: 50px;
+    height: 50px;
+    background-image: url(..//images/icon_bed.png);
+
+}
+
+.user {
+    margin-top: 5px;
+}
+
+.description p {
+    margin: 0px;
+}
